@@ -1,13 +1,13 @@
-import Nav from "../components/Nav.jsx";
-import Hero from "../components/Hero.jsx";
-import Card from "../components/Card.jsx";
+import Nav from "../components/organism/Nav.jsx";
+import Hero from "../components/molecules/Hero.jsx";
+import CardDescription from "../components/organism/CardDescription.jsx"
 
 const Home = () => {
   return (
     <div classname="app">
       <Nav />
       <Hero />
-      <Card />
+      <CardDescription />
     </div>
   );
 };

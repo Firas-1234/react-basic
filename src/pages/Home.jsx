@@ -1,16 +1,15 @@
-import Button from "../components/Button.jsx";
-import Text from "../components/Text.jsx";
+import Nav from "../components/Nav.jsx";
+import Hero from "../components/Hero.jsx";
 import Card from "../components/Card.jsx";
 
 const Home = () => {
-    return (
-        <div classname="app">
-      <h1>Hello, World!!</h1>
-      <Button/>
-      <Text/>
-      <Card/>
+  return (
+    <div classname="app">
+      <Nav />
+      <Hero />
+      <Card />
     </div>
-    )
-}
+  );
+};
 
 export default Home;

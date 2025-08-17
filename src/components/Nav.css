@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #84d6e6;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 74px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.active {
+  color: #6244C7;
+  border-bottom: 2px solid #6244C7;
+}

@@ -1,26 +1,32 @@
 import "./Card.css";
 
 const Card = () => {
-return (
-     <section className="cards">
-        <div className="card">
+  return (
+    <section className="cards">
+      <div className="card">
+        <div className="flex align-center">
           <div className="circle"></div>
           <h3>Text</h3>
-          <p>Description</p>
         </div>
+        <p>Description</p>
+      </div>
 
-        <div className="card">
+      <div className="card">
+        <div className="flex align-center">
           <div className="circle"></div>
           <h3>Text</h3>
-          <p>Description</p>
         </div>
+        <p>Description</p>
+      </div>
 
-        <div className="card">
+      <div className="card">
+        <div className="flex align-center">
           <div className="circle"></div>
           <h3>Text</h3>
-          <p>Description</p>
         </div>
-      </section>
-) 
+        <p>Description</p>
+      </div>
+    </section>
+  );
 };
 export default Card;

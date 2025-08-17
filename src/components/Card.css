@@ -8,7 +8,7 @@
 
 .card {
   background-color: white;
-  width: 250px;
+  width: 30%;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -35,4 +35,11 @@
 .card p {
   margin-top: 10px;
   font-size:14px;
+}
+
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
 }
